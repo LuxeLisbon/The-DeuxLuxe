@@ -1,0 +1,32 @@
+h1 {
+	border-bottom: 10px dotted red;
+
+	text-align: center;
+
+	display: inline-block;
+
+}
+
+
+.border-top {
+	border-top: 3px solid red;
+}
+
+p {
+	background-color: red;
+
+	font-size: 27px;
+
+	font-weight: bold;
+}
+
+.marginPadding {
+	display: inline-block;
+	margin: 5px 15px 5px 15px;
+	padding: 25px 35px 25px 35px;
+}
+
+#heart {
+	width: 25%;
+	height: 25%;
+}

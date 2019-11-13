@@ -1,0 +1,110 @@
+h1 {
+	border-bottom: 10px dotted blue;
+}
+/* Applied to all paragraph tags on the page */
+p {
+	color: pink;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+/*Will make all elements with the light-green-pg class light green*/
+.light-green-pg {
+	color: #96E152;
+}
+
+.border-top {
+	border-top: 3px solid purple;
+}
+
+.uppercase {
+	text-transform: lowercase;
+	color: purple;
+}
+
+#bookman {
+	font-family: 'bookman', Arial, sans-serif;
+}
+
+.container {
+	width: 50%;
+}
+#cutepuppy {
+	width: 100%;
+}
+
+.container p {
+
+
+	text-align: center;
+	margin-top: 5px;
+}
+
+.marginPadding {
+	display: inline-block;
+	/* Top right bottom left */
+	margin: 5px 15px 90px 25px;
+	padding: 20px 50px 43px 32px;
+
+	/* Targeting specific sides */
+	/* margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 90px;
+	margin-left: 25px; */
+	/*padding-top: 5px;
+	padding-right: 15px
+	padding-bottom 90 px;
+	padding-left: 25px;*/
+
+	/* Targeting multiple at one time 
+	-first number is Top/Bottom
+	-second number is Left/Right */
+	/* margin: 20px 60px; */
+	/*padding: 20px 60px;*/
+}
+
+
+#box {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	left: 75px;
+
+}
+#box2 {
+		width: 100px;
+		height: 100px;
+		background-color: blue;
+		position: relative;
+		left: 50px;
+		top: 50px;
+		z-index: 1;
+	}
+
+#absolute {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#absoluteBox {
+	position: absolute;
+	top: 35px;
+	left: 21px;
+}
+
+#fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: blue;
+}
+
+#sticky {
+	position: sticky;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	background-color: purple;
+}
