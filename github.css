@@ -1,3 +1,38 @@
+@keyframes fadeMe{
+ from {
+   opacity: 1;
+ }
+ to {
+   opacity: 0;
+ }
+}
 h1 {
-	text-decoration: blink;
+    background-color: blue;
+    animation: fadeMe 4s color ease-in;
+    -webkit-animation: fadeMe 4s color ease-in;
+    -moz-animation: fadeMe 4s color ease-in;
+    -ms-animation: fadeMe 4s color ease-in;
+    -o-animation: fadeMe 4s color ease-in;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+}
+h1:hover {
+    background-color: red;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease;
+}
+
+
+
+
+Message web-design-oct-2019
+
+
+
 }

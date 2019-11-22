@@ -1,0 +1,26 @@
+body {
+font-family: 'Luckiest Guy', cursive;
+margin: 0;
+}
+
+#Happiness {
+	height: 200px;
+	width: 200 px;
+}
+
+nav {
+	background-color: #d10fa4;
+	position: relative;
+	box-shadow: 0px 3px 10px black;
+	}
+
+#dropdownHover:hover #dropdown {
+display: block;
+left: 0%;
+}
+
+#dropdown {
+	display: none;
+	position: absolute;
+	color: black;
+}

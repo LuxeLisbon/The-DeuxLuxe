@@ -1,0 +1,11 @@
+@keyframes example1 {
+	from {background-color: red}
+	to {background-color: yellow;}
+}
+
+#example1 {
+	width: 200px;
+	height: 200px;
+	/*animation: example 5s linear 2s infinte alernate */
+	animation: example1 4s ease-in 4s infinite alternate-reverse;
+}
